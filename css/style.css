@@ -300,6 +300,9 @@ body{
   background:var(--color2);
   top:-10rem; right:-10rem;
 }
+#more{
+  display: none;
+}
 
 .service{
   width: 100vw;
