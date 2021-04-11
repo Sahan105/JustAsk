@@ -312,24 +312,21 @@ body{
 
 
 .service .roww{
-  /* margin:2rem 0; */
-  padding:0 2rem;
+  padding:2rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
 .service .roww .image img{
   width:50vw;
-  height:55vh;
-}
-#dgimg{
-  height: 50vh;
+  height:40vh;
 }
 
 .service .roww .content{
   text-align: left;
   padding:0 3rem;
+
 }
 
 .service .roww .content h3{
@@ -353,23 +350,19 @@ body{
 
 #imgO-T{
   width:30%;
-  border-radius: 50%;
+  border-radius:50% ;
   margin-left: 8%;
 }
 .hey{
   margin-top:5%;
   text-align: left;
-  
 }
 
 /* beside photo text */
-
 #caption{
 font-size: 2.5rem;
 /* margin-top:5%; */
-
 }
-
 .carousel-item{
   padding: 0 10%;
 }
@@ -387,9 +380,19 @@ font-size: 2.5rem;
   justify-content: center;
 }
 
-.contact .roww .image img{
-  height: 70vh;
-  width:50vw;
+.contact .roww .our-info{
+  width: 50%;
+  text-align: left;
+  padding:0 5rem;
+  height: 370px;
+  font-size: 1.5rem;
+}
+.contact .roww .our-info .info-box{
+  color: var(--color2);
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  border-radius: 4px;
 }
 
 .contact .roww .form-container{
@@ -445,7 +448,7 @@ font-size: 2.5rem;
 .contact .roww .form-container input[type="submit"]:hover{
   opacity: .8;
 }
-
+/* contact end */
 .faq{
   min-height: 100vh;
   width: 100vw;
@@ -463,11 +466,11 @@ font-size: 2.5rem;
 
 .faq .roww .image img{
   height:70vh;
-  width:40vw;
+  width:30vw;
 }
 
 .faq .roww .accordion-container{
-  width: 40%;
+  width: 50%;
   text-align: left;
 }
 
